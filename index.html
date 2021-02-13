@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js">
+
+  </script>
+  <meta charset="utf-8">
+  <title>dasol's personal site</title>
+
+</head>
+
+<body style="background-color:#bce6eb">
+  <script>
+  var r;
+  var g;
+  var b;
+  var a;
+
+  function setup() {
+  createCanvas(windowWidth, windowHeight);
+  x=0;
+  y=0;
+  }
+
+  function draw() {
+  background(188,230,235);
+  r = random(255); // r is a random number between 0 - 255
+  g = random(255); // g is a random number betwen 100 - 200
+  b = random(255); // b is a random number between 0 - 100
+  a = random(255); // a is a random number between 200 - 255
+
+  fill(r, g, b, a);
+  x= x+10;
+  y= y+5;
+  circle(random(windowWidth),random(windowHeight),random(100))
+  }
+  </script>
+
+  <table>
+    <td><img src="images/bitcoin.jpg.jpg" alt="hello" width="500" height="600"></td>
+    <td>
+      <h1>dasol shin</h1>
+      <p><em>my name is <strong>dasol</strong></em></p>
+      <p> I like song.I want to get a job blockchain</p>
+    </td>
+  </table>
+
+
+  <hr>
+  <h3>education</h3>
+  <ul>
+    <li>pohang school</li>
+  </ul>
+  <hr>
+  <h3>hobby</h3>
+  <ol>
+    <li><a href="https://www.youtube.com/">listen music</a></li>
+  </ol>
+  <h3><a href="contact me.html">contact me</a></h3>
+  <hr>
+  <h3>work</h3>
+  <table cellspacing="10">
+    <thead>
+      <th>year</th>
+      <th>school</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2016-2019</td>
+        <td>high school</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>univ</td>
+      </tr>
+
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+  <hr>
+  <h3>skill</h3>
+
+  <table cellspacing="10">
+    <tr>
+      <td>blcokcahin</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>ai</td>
+      <td>⭐⭐</td>
+    </tr>
+
+  </table>
+
+
+
+
+</body>
+
+</html>
